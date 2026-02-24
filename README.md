@@ -17,7 +17,7 @@ THE PROBLEM:
 - Prove NumPy processes all 10M points in under 0.5 seconds
 
 
-============================================================
+
   SCENARIO 4: The "Hospital Patient Diagnosis Accelerator"
 ============================================================
 A hospital emergency room has 500,000 incoming patient records.
