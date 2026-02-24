@@ -16,7 +16,7 @@ THE PROBLEM:
 - Find the top 5 most dangerous earthquake windows
 - Prove NumPy processes all 10M points in under 0.5 seconds
 ============================================================
-"""
+
 ============================================================
   SCENARIO 4: The "Hospital Patient Diagnosis Accelerator"
 ============================================================
@@ -36,4 +36,4 @@ THE PROBLEM:
 - Prove NumPy handles 500,000 patients in under 1 second vs Python
   which would take minutes
 ============================================================
-"""
+
