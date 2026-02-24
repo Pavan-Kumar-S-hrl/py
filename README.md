@@ -1,5 +1,5 @@
 # py
-team project
+team project by Pavan Kumar S & Sanketh Rai
 ============================================================
   SCENARIO 3: The "Earthquake Seismic Wave Analyzer"
 ============================================================
