@@ -15,7 +15,7 @@ THE PROBLEM:
 - Compute the energy (sum of squares) per window using vectorized ops
 - Find the top 5 most dangerous earthquake windows
 - Prove NumPy processes all 10M points in under 0.5 seconds
-============================================================
+
 
 ============================================================
   SCENARIO 4: The "Hospital Patient Diagnosis Accelerator"
