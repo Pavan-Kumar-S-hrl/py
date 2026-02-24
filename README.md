@@ -17,23 +17,3 @@ THE PROBLEM:
 - Prove NumPy processes all 10M points in under 0.5 seconds
 
 
-
-  SCENARIO 4: The "Hospital Patient Diagnosis Accelerator"
-============================================================
-A hospital emergency room has 500,000 incoming patient records.
-Each patient has 6 vital signs: [Heart Rate, Blood Pressure,
-O2 Saturation, Temperature, Respiratory Rate, Blood Sugar].
-
-You also have a "Risk Scoring Matrix" (6 vitals × 4 risk categories):
-[Cardiac Risk, Respiratory Risk, Diabetic Risk, Sepsis Risk].
-
-THE PROBLEM:
-- Use @ (Dot Product) to compute a 4-category risk score for all
-  500,000 patients at once (matrix multiplication: 500k×6 @ 6×4)
-- Transpose the Risk Matrix so dimensions align for multiplication
-- Use element-wise * to apply an "urgency multiplier" — doubling
-  the risk scores for patients whose temperature > 39°C (fever)
-- Prove NumPy handles 500,000 patients in under 1 second vs Python
-  which would take minutes
-============================================================
-
